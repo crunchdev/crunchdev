@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "GearedSlabRegular";
+  src: url("/font/gearedslab/gearedslab.eot");
+  src: url("/font/gearedslab/gearedslab.eot?#iefix") format("embedded-opentype"), url("/font/gearedslab/gearedslab.woff") format("woff"), url("/font/gearedslab/gearedslab.ttf") format("truetype"), url("/font/gearedslab/gearedslab.svg#GearedSlabRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

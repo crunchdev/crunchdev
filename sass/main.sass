@@ -1,0 +1,35 @@
+@import base
+
++establish-baseline
+
+body
+    +background-image(radial-gradient(center center, circle cover, $light_blue, $dark_blue))
+    text-align: center
+
+.page
+    display: table
+    height: 100%
+    width: 100%
+
+.splash
+    display: table-cell
+    vertical-align: middle
+
+.logotype h1
+    +adjust-font-size-to(400px)
+    +trailer(-0.28)
+    +opacity(0.11)
+    color: white
+    font-family: DroidSansBold
+
+.employee
+    +adjust-font-size-to(72px)
+    display: inline-block
+    padding: 0 30px
+    color: white
+    font-family: GearedSlabRegular
+
+    .email
+        +adjust-font-size-to(6px)
+        +adjust-leading-to(0)
+        font-family: DroidSansRegular

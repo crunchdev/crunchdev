@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "GearedSlabRegular";
+  src: url("/font/gearedslab/gearedslab.eot");
+  src: url("/font/gearedslab/gearedslab.eot?#iefix") format("embedded-opentype"), url("/font/gearedslab/gearedslab.woff") format("woff"), url("/font/gearedslab/gearedslab.ttf") format("truetype"), url("/font/gearedslab/gearedslab.svg#GearedSlabRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DroidSansRegular";
+  src: url("/font/droidsans/droidsans.eot");
+  src: url("/font/droidsans/droidsans.eot?#iefix") format("embedded-opentype"), url("/font/droidsans/droidsans.woff") format("woff"), url("/font/droidsans/droidsans.ttf") format("truetype"), url("/font/droidsans/droidsans.svg#DroidSansRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DroidSansBold";
+  src: url("/font/droidsans/droidsans-bold.eot");
+  src: url("/font/droidsans/droidsans-bold.eot?#iefix") format("embedded-opentype"), url("/font/droidsans/droidsans-bold.woff") format("woff"), url("/font/droidsans/droidsans-bold.ttf") format("truetype"), url("/font/droidsans/droidsans-bold.svg#DroidSansBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 58, /var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+body {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 62, /var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html > body {
+  font-size: 16px;
+}
+
+/* line 5, /home/shared/www/crunchdev/sass/main.sass */
+body {
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #003c94), color-stop(100%, #00255c));
+  background-image: -webkit-radial-gradient(center center, circle cover, #003c94, #00255c);
+  background-image: -moz-radial-gradient(center center, circle cover, #003c94, #00255c);
+  background-image: -o-radial-gradient(center center, circle cover, #003c94, #00255c);
+  background-image: -ms-radial-gradient(center center, circle cover, #003c94, #00255c);
+  background-image: radial-gradient(center center, circle cover, #003c94, #00255c);
+  text-align: center;
+}
+
+/* line 9, /home/shared/www/crunchdev/sass/main.sass */
+.page {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 14, /home/shared/www/crunchdev/sass/main.sass */
+.splash {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 18, /home/shared/www/crunchdev/sass/main.sass */
+.logotype h1 {
+  font-size: 25em;
+  line-height: 1.02em;
+  margin-bottom: -0.42em;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=11);
+  opacity: 0.11;
+  color: white;
+  font-family: DroidSansBold;
+}
+
+/* line 25, /home/shared/www/crunchdev/sass/main.sass */
+.employee {
+  font-size: 4.5em;
+  line-height: 1.333em;
+  display: inline-block;
+  padding: 0 30px;
+  color: white;
+  font-family: GearedSlabRegular;
+}
+/* line 32, /home/shared/www/crunchdev/sass/main.sass */
+.employee .email {
+  font-size: 0.375em;
+  line-height: 4em;
+  line-height: 0em;
+  font-family: DroidSansRegular;
+}
