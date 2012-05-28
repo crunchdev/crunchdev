@@ -59,9 +59,9 @@ body {
 
 /* line 18, /home/shared/www/crunchdev/sass/main.sass */
 .logotype h1 {
-  font-size: 25em;
-  line-height: 1.02em;
-  margin-bottom: -0.42em;
+  font-size: 15.625em;
+  line-height: 1.056em;
+  margin-bottom: -0.405em;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=11);
   opacity: 0.11;
   color: white;
@@ -70,8 +70,8 @@ body {
 
 /* line 25, /home/shared/www/crunchdev/sass/main.sass */
 .employee {
-  font-size: 4.5em;
-  line-height: 1.333em;
+  font-size: 2.5em;
+  line-height: 1.2em;
   display: inline-block;
   padding: 0 30px;
   color: white;
@@ -79,8 +79,8 @@ body {
 }
 /* line 32, /home/shared/www/crunchdev/sass/main.sass */
 .employee .email {
-  font-size: 0.375em;
-  line-height: 4em;
+  font-size: 0.313em;
+  line-height: 4.8em;
   line-height: 0em;
   font-family: DroidSansRegular;
 }
